@@ -40,6 +40,10 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 
+for me:
+
+`bundle3.0 exec jekyll serve --trace`
+
 Navigate to `localhost:4000`. You're Welcome, Fork and be Stargazer.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/piharpi/jekyll-klise) [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/piharpi/jekyll-klise) [![Deploy to Azure button](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/?feature.customportal=false&WT.mc_id=javascript-0000-jopapa#create/Microsoft.StaticApp)
