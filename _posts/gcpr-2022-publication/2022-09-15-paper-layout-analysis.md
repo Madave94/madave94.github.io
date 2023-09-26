@@ -5,7 +5,7 @@ date:   2022-10-17 10:00:00 +0200
 tags: [publication]
 ---
 
-**We are planning to release another extra test set for benchmarking - we expect to finish that by end of November.**
+**We are planning to release another extra test set for benchmarking - we expect to finish that by end of November 2023.**
 
 In this short article I want to give a summary of [our publication][1] that we presented at the GCPR 2022.
 
