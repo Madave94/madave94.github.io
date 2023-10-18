@@ -5,9 +5,9 @@ date:   2022-10-17 10:00:00 +0200
 tags: [publication]
 ---
 
-**We are planning to release another extra test set for benchmarking - we expect to finish that by end of November 2023.**
+**The Evaluation Server can be found on [EvalAI](https://eval.ai/web/challenges/challenge-page/2078/)**
 
-In this short article I want to give a summary of [our publication][1] that we presented at the GCPR 2022.
+In this short article I want to give a summary of [our publication][1] that I presented at the GCPR 2022.
 
 ### Dataset [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6885144.svg)](https://doi.org/10.5281/zenodo.6885144)
 
@@ -19,7 +19,7 @@ The colors indicate matching (green), missed (blue) or class wise disagreed (red
 
 The here presented dataset focuses on complex layouts of historical documents. It can be used to train models for
 document layout analysis similar to [PubLayNet](https://github.com/ibm-aur-nlp/PubLayNet) or 
-[DocBank](https://github.com/doc-analysis/DocBank). As an annotations format we used the 
+[DocBank](https://github.com/doc-analysis/DocBank). As an annotation format we used the 
 [COCO-Format](https://cocodataset.org/#format-data) and provide manual annotated polygons and bounding boxes, 
 which means the dataset can be used to train Object Detection and Instance Segmentation models. The 52,000 annotated
 instances are spread across 19 classes. For more details please refer to [our publication][1].

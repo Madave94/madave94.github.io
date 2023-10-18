@@ -1,19 +1,18 @@
 # Site settings
 title: David Tschirschwitz Website # site title
 description: >- # site description
-  He's writing in Bahasa about web technology and experience as a journal 
-  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+  Computer Vision Doctoral Researcher @ Bauhaus Universität Weimar by profession and Software Engineer by heart.
 lang: en-US # default lang
 timezone: Europe/Berlin # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
+repo: https://github.com/Madave94/madave94.github.io # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: David Tschirschwitz # author name
   bio: >- # tell to the world
-    Computer Vision Researcher @ Bauhaus-Universität Weimar, Germany.
+    Computer Vision Doctoral Researcher @ Bauhaus-Universität Weimar, Germany.
   username: madave # general username
   github: Madave94 # github username
   #twitter: twitter_username # twitter username
