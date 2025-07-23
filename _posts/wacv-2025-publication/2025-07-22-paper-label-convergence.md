@@ -8,7 +8,7 @@ tags: [publication]
 Since the emergence of ChatGPT in 2022, I've had the impression that AI has truly entered the mainstream. This wave 
 included a host of other useful products like DALL-E for image generation, Claude for coding assistance, and DeepL for
 machine translation. These systems, broadly categorized as **generative AI**, create new content for a user who then 
-typically verifies the result—a human remains in the loop.
+typically verifies the result; a human remains in the loop.
 
 In contrast, fields like autonomous driving seem less present in the public eye now. Why is that? We don't see fleets of
 self-driving cars on our streets, so the problem is far from solved. These systems are a different type of 
@@ -55,7 +55,7 @@ prediction won't align with that teacher's interpretation. I refer to this type 
 
 This has a major impact on two stages:
 1.  **Model Training:** If a model has a high capacity (meaning it's very large), it can overfit by learning the different interpretations from different annotators. If one group of annotators with a specific convention is much larger than others, the model will likely learn their interpretation as the "correct" one. While research into handling noisy labels offers some solutions, they don't fully solve the problem.
-2.  **Model Evaluation:** This is where the issue becomes much grimmer. No training technique can help here. Imagine you have a test set to evaluate a "perfect" dog and cat classifier. But in your test data, some dogs are incorrectly labeled as cats, and vice versa. Even though your classifier makes perfect predictions, the performance report will say it's not 100% accurate—due to the errors in the labels themselves.
+2.  **Model Evaluation:** This is where the issue becomes much grimmer. No training technique can help here. Imagine you have a test set to evaluate a "perfect" dog and cat classifier. But in your test data, some dogs are incorrectly labeled as cats, and vice versa. Even though your classifier makes perfect predictions, the performance report will say it's not 100% accurate; due to the errors in the labels themselves.
 
 This leads to a concept I call **label convergence**: the highest achievable performance a model can reach, which is inherently limited by the contradictory annotations within the test data. It defines a hard upper bound on accuracy that is imposed by the data, not the model.
 
