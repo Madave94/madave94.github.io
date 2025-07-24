@@ -73,16 +73,16 @@ widely used datasets from multiple domains, including LVIS (general objects), Vi
 These datasets share a crucial property: each image was annotated by at least two different people (as shown in the toy example in Figure 2). This allows us to 
 see just how much the annotators disagree. The short answer: _the differences are significant._
 
-Let's use the popular **LVIS dataset** as an example. It has two annotators per image in its consistency subset. In a perfect world, they would produce identical annotations. However, if we treat one annotator as the "ground truth" and the other as a "prediction," the resulting performance score (mAP) is not 1.0. Instead, it's approximately **0.68**.
+Let's use the popular **LVIS dataset** as an example. It has two annotators per image in its consistency subset. In a perfect world, they would produce identical annotations. However, if we treat one annotator as the "ground truth" and the other as a "prediction," the resulting performance score (mAP) is not 100. Instead, it's approximately **68**.
 
-This is the label convergence threshold for LVIS. It means that no matter how perfect your model is, you can't reasonably expect it to score much higher than 0.68 mAP on this test set with current evaluation practices. The performance is capped by the inconsistencies in the labels themselves.
+This is the label convergence threshold for LVIS. It means that no matter how perfect your model is, you can't reasonably expect it to score much higher than 68 mAP on this test set with current evaluation practices. The performance is capped by the inconsistencies in the labels themselves.
 
 <figure>
     <img src="/assets/img/img-wacv-2025/000000015079.jpg" alt="Image of real label variation in the LVIS dataset.">
     <figcaption>Fig 4. This shows a single example of two annotators interpreting the annotation of the sandwich class
 differently. One annotator, here in purple, views the sliced sandwich as a single instance, while the other annotator, here
  in blue, view the sliced sandwich as two instances. Both interpretation are reasonable, but when contradicting each other,
-make it difficult for a network to arrive at a unique interpretation for the class sandwich</figcaption>
+make it difficult for a network to arrive at a unique interpretation for the class sandwich.</figcaption>
 </figure>
 
 ### What This Means for Real-World AI
