@@ -21,7 +21,7 @@ and advanced manufacturing to assessing the structural integrity of bridges and 
 In this article, I want to explore the reasons for this perceived stagnation. I'll present my perspective on the current
 state of the field, backing it up with empirical analysis from my recent peer-reviewed publication. My goal is to 
 describe these concepts so that non-technical readers can follow along, while the more technical audience can gain a 
-deeper understanding by referring to the [full paper][1].
+deeper understanding by referring to the [full paper][1] which I presented March 2025 at WACV.
 
 <figure>
     <img src="/assets/img/img-wacv-2025/screws_023.png" alt="Example image on the areas we are exploring.">
