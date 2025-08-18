@@ -11,7 +11,7 @@ machine translation. These systems, broadly categorized as **generative AI**, cr
 typically verifies the result; a human remains in the loop.
 
 In contrast, fields like autonomous driving seem less present in the public eye now. Why is that? We don't see fleets of
-self-driving cars on our streets, so the problem is far from solved. These systems are a different type of 
+self-driving cars on our streets, so the problem is far from solved. These systems are of a different type called 
 **discriminative AI**. In the research community, they were the primary drivers of the deep learning revolution between
 2012 and 2015, dominating challenges in image classification and object detection.
 
@@ -50,14 +50,14 @@ prediction won't align with that teacher's interpretation. I refer to this type 
 
 <figure>
     <img src="/assets/img/img-wacv-2025/variation_causes_and_types_EN.png" alt="Visualization of annotation variation.">
-    <figcaption>Fig 2. A visualization of common annotation variations causes. The toy example shows defect detection on concrete structures.</figcaption>
+    <figcaption>Fig 2. A visualization of common annotation variations causes. The toy example shows defect detection on concrete structures. Three civil engineers interpret the structural defects on a concrete surface differently.</figcaption>
 </figure>
 
 This has a major impact on two stages:
 1.  **Model Training:** If a model has a high capacity (meaning it's very large), it can overfit by learning the different interpretations from different annotators. If one group of annotators with a specific convention is much larger than others, the model will likely learn their interpretation as the "correct" one. While research into handling noisy labels offers some solutions, they don't fully solve the problem.
 2.  **Model Evaluation:** This is where the issue becomes much grimmer. No training technique can help here. Imagine you have a test set to evaluate a "perfect" dog and cat classifier. But in your test data, some dogs are incorrectly labeled as cats, and vice versa. Even though your classifier makes perfect predictions, the performance report will say it's not 100% accurate; due to the errors in the labels themselves.
 
-This leads to a concept I call **label convergence**: the highest achievable performance a model can reach, which is inherently limited by the contradictory annotations within the test data. It defines a hard upper bound on accuracy that is imposed by the data, not the model.
+This leads to a concept I call **label convergence**: the highest achievable performance a model can reach - at least on this flawed test data, which is inherently limited by the contradictory annotations within the test data. It defines a hard upper bound on accuracy that is imposed by the data, not the model.
 
 ### Just How Big is the Problem?
 
@@ -100,7 +100,7 @@ convergence is therefore critical:
 
 To address this challenge, I propose a three-pronged approach based on my research:
 
-1.  **Improve Annotation Quality:** This is the most obvious solution. We must implement better annotation guidelines and training to reduce errors and variability. This is especially crucial for test data, where consistency is key for accurate evaluation.
+1.  **Improve Annotation Quality:** This is the most obvious solution. We must implement better annotation guidelines and training to reduce errors and variability. This is especially crucial for test data, where consistency is key for accurate evaluation.  
 2.  **Include Multi-Annotated Data:** Since labels will likely always contain some variation, datasets should include a subset of images annotated by multiple people. This makes the issue of inconsistency visible from the start and allows us to measure it.
 3.  **Update Evaluation Methods:** We need to rethink how strictly we judge annotations. Instead of trying to eliminate all noise from test sets, we can use the concept of label convergence as a realistic measure of a task's inherent ambiguity. This leads to a more flexible and practical assessment of model performance.
 
