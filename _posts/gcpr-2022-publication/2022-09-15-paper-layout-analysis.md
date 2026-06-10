@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Dataset for Analyzing Complex Document Layouts"
+title:  "A Dataset for Analyzing Complex Document Layouts (GCPR 2022 paper)"
 date:   2022-10-17 10:00:00 +0200
 tags: [publication]
 ---

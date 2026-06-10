@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Hidden Bottleneck in AI: Why Your Model's Performance is Capped by 'Label Convergence'"
+title:  "The Hidden Bottleneck in AI: Why Your Model's Performance is Capped by 'Label Convergence' (WACV 2025)"
 date:   2025-07-23 14:42:00 +0200
 tags: [publication]
 ---

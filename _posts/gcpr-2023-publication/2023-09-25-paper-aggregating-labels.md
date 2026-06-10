@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Coping Noisy Annotations in Object Detection with Repeated Labels"
+title:  "Coping Noisy Annotations in Object Detection with Repeated Labels (GCPR 2023 paper)"
 date:   2023-10-18 9:00:00 +0200
 tags: [publication]
 ---

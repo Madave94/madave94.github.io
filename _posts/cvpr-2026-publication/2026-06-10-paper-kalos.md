@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Measuring label quality"
+title:  "Measuring label quality (CVPR 2026 paper)"
 date:   2026-06-10 12:30:00 +0200
 tags: [publication]
 ---
